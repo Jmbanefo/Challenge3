@@ -45,7 +45,7 @@ function generatePassword(){
           
                     for (let i = 0; i < length; i++) {
                 
-                      bucket+= [Math.floor(Math.random() * bucket.length)]; //previously passcode
+                    
                       console.log("first length"); 
                       console.log(bucket[Math.floor(Math.random() * bucket.length)]);
                       passcode+=bucket[Math.floor(Math.random() * bucket.length)];
